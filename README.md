@@ -57,12 +57,12 @@ Print is a simple library to print messages for debugging in anroid studio.
   ```
 
 ## Authors
-* **Westbeng** - *Initial work* [Visit Website](https://westbeng.com), [Visit GitHub](https://github.com/westbeng)
+* **Westbeng** - *Initial work* ([Visit website](https://westbeng.com), [Visit github](https://github.com/westbeng))
 
 See also the list of [contributors](https://github.com/westbeng/print/contributors) who participated in this project.
 
 ## Built With
-* **Android Studio** - [Know more](https://developer.android.com/studio/intro), [Download](https://developer.android.com/studio)
+* **Android Studio** ([Know more](https://developer.android.com/studio/intro), [Download](https://developer.android.com/studio))
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/westbeng/print/blob/master/LICENSE) file for details
