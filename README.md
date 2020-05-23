@@ -2,7 +2,7 @@
 Print is a simple library to print messages for debugging in anroid studio.
 
 ## Features
-* This library allows you to print simple debug/error messages in the console easily. It is not different from the debug function in android, but it has some extra features like you can pass the funcation name to find any errors quicly, you can show toast if requrie, etc.
+* This library allows you to print simple debug/error messages in the console easily. It is not different from the debug function in android, but it has some extra features like you can pass the function name to find any errors quickly, you can show toast if requrie, etc.
 
 ## Latest Release
  [![](https://jitpack.io/v/westbeng/print.svg)](https://jitpack.io/#westbeng/print)
