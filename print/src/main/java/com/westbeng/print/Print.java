@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class Print {
 
-    // Debug messages
+    /** Debug messages */
     public static void d(Context context, String message) {
         Log.d(context.getClass().getSimpleName(), message);
     }
@@ -34,7 +34,7 @@ public class Print {
         }
     }
 
-    // Error messages
+    /** Error messages */
     public static void e(Context context, String message) {
         Log.e(context.getClass().getSimpleName(), message);
     }
@@ -56,4 +56,51 @@ public class Print {
             Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
         }
     }
+
+    /** Info messages */
+    public static void i(Context context, String message) {
+        Log.i(context.getClass().getSimpleName(), message);
+    }
+
+    public static void i(Context context, String message, boolean showToast) {
+        Log.i(context.getClass().getSimpleName(), message);
+        if (showToast) {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public static void i(Context context, String message, String functionName) {
+        Log.i(context.getClass().getSimpleName(), functionName + " -> " + message);
+    }
+
+    public static void i(Context context, String message, String functionName, boolean showToast) {
+        Log.i(context.getClass().getSimpleName(), functionName + " -> " + message);
+        if (showToast) {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    /** Warning messages */
+    public static void w(Context context, String message) {
+        Log.w(context.getClass().getSimpleName(), message);
+    }
+
+    public static void w(Context context, String message, boolean showToast) {
+        Log.w(context.getClass().getSimpleName(), message);
+        if (showToast) {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    public static void w(Context context, String message, String functionName) {
+        Log.w(context.getClass().getSimpleName(), functionName + " -> " + message);
+    }
+
+    public static void w(Context context, String message, String functionName, boolean showToast) {
+        Log.w(context.getClass().getSimpleName(), functionName + " -> " + message);
+        if (showToast) {
+            Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        }
+    }
+
 }
