@@ -20,7 +20,7 @@ Print is a simple library to print messages for debugging in anroid studio.
  * **Step 2** Add the dependency
    ```
    dependencies {
-            implementation 'com.github.westbeng:print:LatestReleaseCode'
+            implementation 'com.github.westbeng:print:1.0.0'
     }
    ```
 ## How to Use
@@ -38,26 +38,26 @@ Print is a simple library to print messages for debugging in anroid studio.
 
   * ***Simple messsage***
   ```
-  Print.d(ctx, message);
+  Print.d(context, message);
   ```
   
   * ***Message with toast***
   ```
-  Print.d(ctx, message, true);
+  Print.d(context, message, true);
   ```
   
   * ***Message with function name***
   ```
-  Print.d(ctx, message, functionName);
+  Print.d(context, message, functionName);
   ```
     
   * ***Message with function name & toast***
   ```
-  Print.d(ctx, message, functionName, true);
+  Print.d(context, message, functionName, true);
   ```
 
 ## Authors
-* **Westbeng** - *Initial work* - [Visit Website](https://westbeng.com), [Visit GitHub](https://github.com/westbeng)
+* **Westbeng** - *Initial work* [Visit Website](https://westbeng.com), [Visit GitHub](https://github.com/westbeng)
 
 See also the list of [contributors](https://github.com/westbeng/print/contributors) who participated in this project.
 
