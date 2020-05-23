@@ -24,34 +24,34 @@ Print is a simple library to print messages for debugging in anroid studio.
     }
    ```
 ## How to Use
-* **Use of functions**
+  ### Use of functions
 
-  ***Print.d()*** - *to print debug messages*
+  * ***Print.d()*** - *to print debug messages*
   
-  ***Print.e()*** - *to print error messages*
+  * ***Print.e()*** - *to print error messages*
   
-  ***Print.i()*** - *to print info messages*
+  * ***Print.i()*** - *to print info messages*
   
-  ***Print.w()*** - *to print warning messages*
+  * ***Print.w()*** - *to print warning messages*
   
-* **Example**
+  ### Example
 
-  ***Simple messsage***
+  * ***Simple messsage***
   ```
   Print.d(ctx, message);
   ```
   
-  ***Message with toast***
+  * ***Message with toast***
   ```
   Print.d(ctx, message, true);
   ```
   
-  ***Message with function name***
+  * ***Message with function name***
   ```
   Print.d(ctx, message, functionName);
   ```
     
-  ***Message with function name & toast***
+  * ***Message with function name & toast***
   ```
   Print.d(ctx, message, functionName, true);
   ```
